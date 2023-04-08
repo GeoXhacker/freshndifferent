@@ -58,6 +58,8 @@ function Home() {
 				className="relative"
 				data-te-carousel-init
 				data-te-carousel-slide
+				data-te-slide
+				// data-te-pause={false}
 			>
 				<div
 					className="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
@@ -206,16 +208,16 @@ function Home() {
 
 			<div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
 				<div className="-m-1 flex flex-wrap md:-m-2">
-					<div className="flex w-1/2 flex-wrap transition duration-700">
-						<div className="w-full p-1 md:p-2 relative hover:scale-90 text-white group">
+					<div className="flex w-1/2 flex-wrap">
+						<div className="w-full p-1 md:p-2 relative text-white">
 							<img
 								alt="gallery"
 								className="block h-full w-full rounded-lg object-cover object-center"
 								src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
 							/>
-							<h2 class="absolute text-3xl bottom-4 left-1/2 -translate-x-1/2 group-hover:text-black">
+							{/* <h2 class="absolute text-3xl bottom-4 left-1/2 -translate-x-1/2 group-hover:text-black">
 								New
-							</h2>
+							</h2> */}
 						</div>
 					</div>
 					<div className="flex w-1/2 flex-wrap">
