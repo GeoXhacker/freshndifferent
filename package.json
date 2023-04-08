@@ -10,7 +10,7 @@
 		"preview": "vite preview",
 		"pm2-setup": "pm2 deploy production setup",
 		"deploy": "pm2 deploy production",
-		"start": "serve -s build",
+		"start": "serve -s dist",
 		"serve": "rm -r /var/www/html/survey/* && cp -r dist/* /var/www/html/survey"
 	},
 	"dependencies": {
