@@ -8,6 +8,6 @@ ENV NODE_ENV production
 
 
 # install node modules and build assets
-RUN npm install serve
+RUN npm install -f serve
 
 CMD [ "npm", "start" ]
