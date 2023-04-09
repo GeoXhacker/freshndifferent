@@ -36,6 +36,7 @@
 		"react-vis": "^1.11.12",
 		"redux-persist": "^6.0.0",
 		"serve": "^13.0.2",
+		"swiper": "^9.2.0",
 		"tw-elements": "*",
 		"vite": "^4.0.0"
 	},
