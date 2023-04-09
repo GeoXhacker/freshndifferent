@@ -84,7 +84,7 @@ function Home() {
 						data-te-carousel-active
 					>
 						<img
-							src="images/image10.jpg"
+							src="images/image9.jpg"
 							class="block w-full"
 							alt="Wild Landscape"
 						/>
@@ -94,7 +94,7 @@ function Home() {
 						class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
 						data-te-carousel-item
 					>
-						<img src="images/image8.jpg" class="block w-full" alt="Camera" />
+						<img src="images/image10.jpg" class="block w-full" alt="Camera" />
 					</div>
 
 					<div
@@ -102,7 +102,7 @@ function Home() {
 						data-te-carousel-item
 					>
 						<img
-							src="images/image9.jpg"
+							src="images/image8.jpg"
 							class="block w-full"
 							alt="Exotic Fruits"
 						/>
