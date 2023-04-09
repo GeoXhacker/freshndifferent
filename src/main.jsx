@@ -12,6 +12,8 @@ import Result from "./components/Result";
 import { persistor, store } from "./redux";
 import { PersistGate } from "redux-persist/integration/react";
 
+
+
 const router = createBrowserRouter([
 	{
 		path: "/",
